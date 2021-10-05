@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity"
+              android:background="@color/teal_200">
+
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/flag001"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="1pt"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12pt"
+            android:text="Sports Team Manager"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="@color/black"
+            android:text="Type Team Name Here"
+            android:gravity="bottom"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:text="Team Name"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="@color/black"
+            android:text="Type Team Address Here"
+            android:gravity="bottom"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:text="Team Address"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:translationX="50dp"
+            android:layout_marginTop="20dp"
+            android:text="OPEN GOOGLE MAPS"/>
+
+
+</LinearLayout>
